@@ -187,6 +187,7 @@ nav .menu a {
 #skillis .skill-container .skills-box {
   display: flex;
   gap: 24px;
+
 }
 
 .skills-box .skill-card {
@@ -215,5 +216,54 @@ nav .menu a {
   color: #757575;
 }
 
+#resume {
+  padding-top: 130px;
+}
 
+#resume .resume-container {
+  width: 71%;
+  max-width: 1140px;
+  margin: 130px auto 0;
+  display: flex;
+  gap: 24px;
+}
 
+#resume .resume-container .section-title{
+  font-size: 30px;
+  font-weight: bold;
+  color: #474747;
+  margin-bottom: 30px;
+  
+
+}
+
+.resume-card {
+  max-width: 511px;
+  margin-right: 50px;
+}
+
+.card-title {
+  font-size: 25px;
+  font-weight: bold;
+  color: #474747;
+  margin-bottom: 10px;
+
+}
+
+.card-info {
+  font-size: 20px;
+  font-weight: 600px;
+  color: #757575;
+  padding-bottom: 20px;
+}
+
+.card-text{
+  max-width: 511px;
+  font-size: 16px;
+  line-height: 28px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+.resume-container hr {
+  margin-bottom: 30px;
+}
